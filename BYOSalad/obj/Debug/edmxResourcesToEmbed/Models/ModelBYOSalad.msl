@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DatabaseBYOSaladModelStoreContainer" CdmEntityContainer="DatabaseBYOSaladEntities">
+    <EntitySetMapping Name="Salad">
+      <EntityTypeMapping TypeName="DatabaseBYOSaladModel.Salad">
+        <MappingFragment StoreEntitySet="Salad">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Allergy" ColumnName="Allergy" />
+          <ScalarProperty Name="Ingredients" ColumnName="Ingredients" />
+          <ScalarProperty Name="Preparation" ColumnName="Preparation" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Ranking" ColumnName="Ranking" />
+          <ScalarProperty Name="InsertDB" ColumnName="InsertDB" />
+          <ScalarProperty Name="Visible" ColumnName="Visible" />
+          <ScalarProperty Name="DeleteDB" ColumnName="DeleteDB" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

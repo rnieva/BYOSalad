@@ -38,3 +38,7 @@ c:\users\rob\documents\visual studio 2015\Projects\BYOSalad\BYOSalad\bin\Newtons
 c:\users\rob\documents\visual studio 2015\Projects\BYOSalad\BYOSalad\obj\Debug\BYOSalad.csprojResolveAssemblyReference.cache
 c:\users\rob\documents\visual studio 2015\Projects\BYOSalad\BYOSalad\obj\Debug\BYOSalad.dll
 c:\users\rob\documents\visual studio 2015\Projects\BYOSalad\BYOSalad\obj\Debug\BYOSalad.pdb
+C:\Users\Rob\Documents\Visual Studio 2015\Projects\BYOSalad\BYOSalad\bin\EntityFramework.dll
+C:\Users\Rob\Documents\Visual Studio 2015\Projects\BYOSalad\BYOSalad\bin\EntityFramework.SqlServer.dll
+C:\Users\Rob\Documents\Visual Studio 2015\Projects\BYOSalad\BYOSalad\bin\EntityFramework.xml
+C:\Users\Rob\Documents\Visual Studio 2015\Projects\BYOSalad\BYOSalad\bin\EntityFramework.SqlServer.xml

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseBYOSaladModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Salad">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Category" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Allergy" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Ingredients" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Preparation" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Time" Type="Int32" />
+    <Property Name="Cost" Type="Int32" />
+    <Property Name="Location" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Ranking" Type="Int32" />
+    <Property Name="InsertDB" Type="DateTime" Precision="3" />
+    <Property Name="Visible" Type="Boolean" />
+    <Property Name="DeleteDB" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityContainer Name="DatabaseBYOSaladEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Salad" EntityType="Self.Salad" />
+  </EntityContainer>
+</Schema>
